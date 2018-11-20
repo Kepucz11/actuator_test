@@ -9,6 +9,10 @@ Project uses basic h2 in-memory database, available under http://<your_ip>:<serv
 username: sa
 password: theres no password :)
 
+#Building
+Just execute mvn clean install on main folder. You will get actuator.test-X.X.X-SNAPSHOT.jar under
+/target folder.
+
 #Documentation
 YOu can find swagger api documentation under http://<your_ip>:<server.port>/swagger-ui.html
 
